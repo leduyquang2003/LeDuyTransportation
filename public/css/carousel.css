@@ -111,15 +111,35 @@ body {
       font-size: 1.25rem;
       line-height: 1.4;
     } */
-    .carousel-caption{
+
+    .carousel-item{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .carousel-item bd-placeholder-img{
+      justify-items: center;
+    }
+
+    .sm-screen{
+      display: block;
+      height: 300px;
+    }
+
+    .lg-screen{
       display: none;
     }
 
-    .carousel-caption-small{
+    .carousel-caption{
+      padding: 5px 0;
+    }
+
+    /* .carousel-caption-small{
       display: flex;
       flex-direction: column;
       margin: 0 20px 30px 20px;
-    }
+    } */
 
     .carousel-caption-small h1, .carousel-caption-small p{
         display: flex;
