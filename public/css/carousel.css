@@ -180,9 +180,8 @@ body {
   
   }
 
-  /* @media (min-width: 769px) and (max-width:1024px){
-    .company-name{
-      font-size: calc(3px + 2vw);
-    }
-  }  */
-  
+  @media (max-width: 767px){
+    .col-lg-3 .bd-placeholder-img {
+      height: 180px;
+  }
+  }
